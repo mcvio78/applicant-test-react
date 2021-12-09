@@ -2,9 +2,9 @@ import cart from "./cart.png"
 function App() {
     if (window.location.pathname === "/cart") {
         return <div>
-            <div>Books</div>
-            <div>Awesome book store</div>
-            <button><img src={cart} onClick={() => window.location.href = "cart"}/></button>
+            <button onClick={() => window.location.href = "/"}>Books</button>
+            <button onClick={() => window.location.href = "/"}>Awesome book store</button>
+            <button onClick={() => window.location.href = "cart"}><img src={cart}/></button>
             <div>Name</div>
             <div>Amount</div>
             <div>Price</div>
@@ -23,9 +23,9 @@ function App() {
     }
     return (
         <div>
-            <div>Books</div>
-            <div>Awesome book store</div>
-            <button><img src={cart} onClick={() => window.location.href = "cart"}/></button>
+            <button onClick={() => window.location.href = "/"}>Books</button>
+            <button onClick={() => window.location.href = "/"}>Awesome book store</button>
+            <button onClick={() => window.location.href = "cart"}><img src={cart}/></button>
             <img src="./book-black.jpg"/>
             <div>Black book</div>
             <div>Awesome book with black cover!</div>
