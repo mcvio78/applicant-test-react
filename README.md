@@ -24,7 +24,7 @@ You can use any library that you prefer, you can do it yourself, or you can use 
 <li>As a user I would like to see what items I have in cart.</li>
 <li>As a user I would like to remove an item from cart.</li>
 <li>As a user I do not want my window reloading the application when I change the view.</li>
-<li>As a developer I would like to _maintain_, _extend_ the functionality, and _make changes_ to code __easily__.</li>
+<li>As a developer I would like to maintain, extend the functionality, and make changes to code easily.</li>
 <li>As a developer I want to minimize number of props passed between components.</li>
 <li>As a developer I want to add more books without making (nearly any) changes to javascript code.</li>
 <li>As a developer I want to add new products (such as magazine) without making (major) changes to javascript code.</li>
