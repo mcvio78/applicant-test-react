@@ -19,18 +19,19 @@ You can use any library that you prefer, you can do it yourself, or you can use 
 
 ## Requirements
 <ol>
-<li>As a user I would like to see all books in store.</li>
-<li>As a user I would like to add a book (with specified amount) to cart.</li>
-<li>As a user I would like to see what items I have in cart.</li>
-<li>As a user I would like to remove an item from cart.</li>
+<li>As a user I want to see all books in store.</li>
+<li>As a user I want to add a book (with specified amount) to cart.</li>
+<li>As a user I want to see what items I have in cart.</li>
+<li>As a user I want to remove an item from cart.</li>
 <li>As a user I do not want my window reloading the application when I change the view.</li>
-<li>As a developer I would like to maintain, extend the functionality, and make changes to code easily.</li>
 <li>As a developer I want to minimize number of props passed between components.</li>
-<li>As a developer I want to add more books without making (nearly any) changes to javascript code.</li>
-<li>As a developer I want to add new products (such as magazine) without making (major) changes to javascript code.</li>
 <li>As a developer I do not want to let user fill the inputs with invalid values or values that cannot be processed by the store.</li>
 <li>As a developer I do not want to let user add an item to cart with amount = 0.</li>
+<li>As a developer I want to be able to maintain, extend the functionality, and make changes to code easily.</li>
+<li>As a developer I want to be able to add more books without making (nearly any) changes to javascript code.</li>
+<li>As a developer I want to be able to add new products (such as magazine) without making (major) changes to javascript code.</li>
 </ol>
 
 Feel free to use any available node package to solve the assignment. Good luck!
+We appreciate any feedback on this assignment.
 
