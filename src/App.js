@@ -1,29 +1,30 @@
 import cart from "./cart.png"
 function App() {
-    console.log(window.location.href)
     if (window.location.pathname === "/cart") {
         return <div>
-            <div>Item</div>
+            <div>Books</div>
+            <div>Awesome book store</div>
+            <button><img src={cart} onClick={() => window.location.href = "cart"}/></button>
+            <div>Name</div>
             <div>Amount</div>
             <div>Price</div>
             <div>Black book</div>
-            <div>2</div>
+            <div>2<button>Remove</button></div>
             <div>598 CZK</div>
             <div>Red book</div>
-            <div>1</div>
+            <div>1<button>Remove</button></div>
             <div>499 CZK</div>
             <div>White book</div>
-            <div>1</div>
+            <div>1<button>Remove</button></div>
             <div>299 CZK</div>
             <div>Total</div>
             <div>1396 CZK</div>
-            <button onClick={() => window.location.href = "./"}>Back to browse</button>
-            <button>Order</button>
         </div>
     }
     return (
         <div>
-            <div>Awesome book shop!</div>
+            <div>Books</div>
+            <div>Awesome book store</div>
             <button><img src={cart} onClick={() => window.location.href = "cart"}/></button>
             <img src="./book-black.jpg"/>
             <div>Black book</div>
@@ -43,7 +44,7 @@ function App() {
             <div>Green book</div>
             <div>Great book with cover like grass.</div>
             <div>310 CZK</div>
-            <div>Unavailable</div>
+            <div>Not available</div>
             <input type="number" value={0}/>
             <button>Add to cart</button>
             <img src="./book-red.jpg"/>
@@ -64,7 +65,7 @@ function App() {
             <div>Yellow book</div>
             <div>Very sunny book for you!</div>
             <div>299 CZK</div>
-            <div>Unavailable</div>
+            <div>Not available</div>
             <input type="number" value={0}/>
             <button>Add to cart</button>
         </div>
