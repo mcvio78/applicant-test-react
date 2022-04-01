@@ -12,6 +12,7 @@ export const Home = () => {
             className="book-input-section"
             type="number"
             defaultValue={0}
+            min="0"
           />
           <button className="book-add-section" type="button">
             Add to cart
@@ -26,7 +27,7 @@ export const Home = () => {
         </div>
         <div className="book-price">310 CZK</div>
         <div>3 in stock</div>
-        <input type="number" defaultValue={0} />
+        <input type="number" defaultValue={0} min="0" />
         <button className="book-add-section" type="button">
           Add to cart
         </button>
@@ -39,7 +40,7 @@ export const Home = () => {
         </div>
         <div className="book-price">310 CZK</div>
         <div className="book-unavailable">Not available</div>
-        <input type="number" defaultValue={0} />
+        <input type="number" defaultValue={0} min="0" />
         <button className="book-add-section" type="button">
           Add to cart
         </button>
@@ -50,7 +51,7 @@ export const Home = () => {
         <div className="book-description">A book full of secrets.</div>
         <div className="book-price">499 CZK</div>
         <div>1 in stock</div>
-        <input type="number" defaultValue={0} />
+        <input type="number" defaultValue={0} min="0" />
         <button className="book-add-section" type="button">
           Add to cart
         </button>
@@ -63,7 +64,7 @@ export const Home = () => {
         </div>
         <div className="book-price">199 CZK</div>
         <div>5+ in stock</div>
-        <input type="number" defaultValue={0} />
+        <input type="number" defaultValue={0} min="0" />
         <button className="book-add-section" type="button">
           Add to cart
         </button>
@@ -74,7 +75,7 @@ export const Home = () => {
         <div className="book-description">Very sunny book for you!</div>
         <div className="book-price">299 CZK</div>
         <div className="book-unavailable">Not available</div>
-        <input type="number" defaultValue={0} />
+        <input type="number" defaultValue={0} min="0" />
         <button className="book-add-section" type="button">
           Add to cart
         </button>
