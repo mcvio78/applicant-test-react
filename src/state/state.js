@@ -1,0 +1,56 @@
+export const initialState = {
+  books: {
+    book_01: {
+      src: "./book-black.jpg",
+      alt: "black book",
+      name: "Black Book",
+      description: "Awesome book with black cover!",
+      price: 299,
+      stockQuantity: 10,
+    },
+    book_02: {
+      src: "./book-blue.jpg",
+      alt: "blue book",
+      name: "Blue book",
+      description: "Literally awesomeness itself with blue cover.",
+      price: 310,
+      stockQuantity: 3,
+    },
+    book_03: {
+      src: "./book-green.jpg",
+      alt: "green book",
+      name: "Green book",
+      description: "Great book with cover like grass.",
+      price: 310,
+      stockQuantity: 0,
+    },
+    book_04: {
+      src: "./book-red.jpg",
+      alt: "red book",
+      name: "Red book",
+      description: "A book full of secrets.",
+      price: 499,
+      stockQuantity: 1,
+    },
+    book_05: {
+      src: "./book-white.jpg",
+      alt: "white book",
+      name: "White book",
+      description: "A book with white cover - great for personal drawings!",
+      price: 199,
+      stockQuantity: 15,
+    },
+    book_06: {
+      src: "./book-yellow.jpg",
+      alt: "yellow book",
+      name: "Yellow book",
+      description: "Very sunny book for you!",
+      price: 299,
+      stockQuantity: 0,
+    },
+  },
+  cart: {
+    selectedBooks: {},
+    total: 0,
+  },
+};
