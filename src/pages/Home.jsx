@@ -1,16 +1,28 @@
+import { useContext } from "react";
+
 import { BookCard } from "../components/BookCard";
+import { CartContext } from "../state/context";
 
 export const Home = () => {
+  const {
+    state: { books },
+  } = useContext(CartContext);
+
   return (
     <div className="book-list">
-      <BookCard
-        src="./book-black.jpg"
-        alt="black book"
-        bookName="black book"
-        description="Awesome book with black cover!"
-        price={299}
-        stockQuantity={3}
-      />
+      {books &&
+        Object.entries(books).map(([id, book]) => (
+          <BookCard
+            key={id}
+            id={id}
+            src={book.src}
+            alt={book.alt}
+            bookName={book.name}
+            description={book.description}
+            price={book.price}
+            stockQuantity={book.stockQuantity}
+          />
+        ))}
     </div>
   );
 };
