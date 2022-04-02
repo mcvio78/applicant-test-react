@@ -2,16 +2,20 @@ import { Navbar } from "./components/Navbar";
 import { Cart } from "./pages/Cart";
 import { Home } from "./pages/Home";
 import { Provider } from "./state/context";
+import { Route } from "./components/Route";
 
 import "./styles.css";
 
 function App() {
-  const content = window.location.pathname === "/cart" ? <Cart /> : <Home />;
-
   return (
     <Provider>
       <Navbar />
-      <div className="main-area">{content}</div>
+      <Route path="/">
+        <Home />
+      </Route>
+      <Route path="/cart">
+        <Cart />
+      </Route>
     </Provider>
   );
 }
